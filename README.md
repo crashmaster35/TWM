@@ -2,7 +2,7 @@
 
 **ToroWM** is a lightweight window manager being designed for the **ToroKernel** and will run on **ToroOS**. The project is currently in the **design phase**, and no development has started yet. The goal is to provide a basic window management system with minimal system overhead, while maintaining compatibility with the ToroKernel's architecture.
 
-On the **Wiki** section you can see the design documentation.
+On the **[Wiki](https://github.com/crashmaster35/ToroWM/wiki)** section you can see the design documentation.
 
 ## Initial Design Parameters
 
