@@ -1,6 +1,6 @@
-# ToroWM
+# TWM
 
-**ToroWM** is a lightweight window manager being designed for the **ToroKernel** and will run on **ToroOS**. The project is currently in the **design phase**, and no development has started yet. The goal is to provide a basic window management system with minimal system overhead, while maintaining compatibility with the ToroKernel's architecture.
+**TWM** is a lightweight window manager being designed for the **ToroKernel** and will run on **ToroOS**. The project is currently in the **design phase**, and no development has started yet. The goal is to provide a basic window management system with minimal system overhead, while maintaining compatibility with the ToroKernel's architecture.
 
 On the **[Wiki](https://github.com/crashmaster35/ToroWM/wiki)** section you can see the design documentation.
 
@@ -10,7 +10,7 @@ On the **[Wiki](https://github.com/crashmaster35/ToroWM/wiki)** section you can 
 
 * **Graphics Mode**: The window manager will use **VESA (Video Electronics Standards Association)** for the graphical mode. VESA was selected for its simplicity and hardware compatibility, making it a robust solution for rendering graphical elements such as windows, buttons, and text.
 
-* **Communication Protocol:** **IPC (Inter-Process Communication)** will serve as the communication protocol for **ToroWM**. This enables effective and secure communication between applications, the window manager, and other system components.
+* **Communication Protocol:** **IPC (Inter-Process Communication)** will serve as the communication protocol for **TWM**. This enables effective and secure communication between applications, the window manager, and other system components.
 
 * **Event Handling:** **Hardware interrupts** will handle event processing, including user input like keyboard and mouse events. This method guarantees real-time responsiveness, avoiding delays introduced by polling mechanisms.
 
@@ -23,11 +23,11 @@ On the **[Wiki](https://github.com/crashmaster35/ToroWM/wiki)** section you can 
 
 ## Current Status: Design Phase
 
-As of now, **ToroWM** is still in the **design phase**. No development has begun, and the project team is working on finalizing the core architecture and technical specifications. Future updates will provide more details on development progress and implementation plans.
+As of now, **TWM** is still in the **design phase**. No development has begun, and the project team is working on finalizing the core architecture and technical specifications. Future updates will provide more details on development progress and implementation plans.
 
 ## Contributing
 
-We welcome new contributors! If you are interested in helping shape the development of **ToroWM**, feel free to join us. We are particularly looking for contributors with experience in the following areas:
+We welcome new contributors! If you are interested in helping shape the development of **TWM**, feel free to join us. We are particularly looking for contributors with experience in the following areas:
 
 * Pascal programming (with or without object-oriented practices).
 * Graphics programming using VESA or other low-level techniques.
